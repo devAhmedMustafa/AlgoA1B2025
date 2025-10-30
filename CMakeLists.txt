@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_library(modules
         src/FibonacciSeries.cpp
-        src/FibonacciSeries.h)
+        src/FibonacciSeries.h
+        src/Search.cpp
+        src/Search.h)
 
 add_executable(AlgoAssignment main.cpp)
 target_link_libraries(AlgoAssignment PRIVATE modules)
