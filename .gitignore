@@ -1,0 +1,18 @@
+# CLion IDE files
+.idea/
+
+# CMake build directories
+cmake-build-*/
+
+# Executables and libraries
+*.exe
+*.dll
+*.so
+*.a
+
+# CMake cache and intermediate files
+CMakeCache.txt
+CMakeFiles/
+
+# External dependencies (if applicable)
+deps/
