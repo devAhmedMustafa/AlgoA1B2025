@@ -16,6 +16,7 @@ private:
 public:
     static int recursive(int n);
     static int divideAndConquer(int n);
+    static int iterative(int n);
 };
 
 

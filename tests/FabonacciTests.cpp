@@ -42,3 +42,16 @@ TEST(DivideAndConquerFibonacciTests, HandlesLargerNumbers) {
     EXPECT_EQ(FibonacciSeries::divideAndConquer(15), 610);
     EXPECT_EQ(FibonacciSeries::divideAndConquer(20), 6765);
 }
+
+TEST(IterativeFibonacciTests, HandlesBaseCases) {
+    EXPECT_EQ(FibonacciSeries::iterative(0), 0);
+    EXPECT_EQ(FibonacciSeries::iterative(1), 1);
+}
+
+TEST(IterativeFibonacciTests, HandlesSmallNumbers) {
+    EXPECT_EQ(FibonacciSeries::iterative(2), 1);
+    EXPECT_EQ(FibonacciSeries::iterative(3), 2);
+    EXPECT_EQ(FibonacciSeries::iterative(4), 3);
+    EXPECT_EQ(FibonacciSeries::iterative(5), 5);
+    EXPECT_EQ(FibonacciSeries::iterative(6), 8);
+}
