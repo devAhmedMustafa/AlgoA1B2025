@@ -10,7 +10,10 @@
 class Search {
     static int recursiveBinarySearch(int arr[], int left, int right, int target);
 public:
+    static int iterativeSequentialSearch(int arr[], int size, int target);
+    static int recursiveSequentialSearch(int arr[], int size, int target);
     static int recursiveBinarySearch(int arr[], int size, int target);
+    static int iterativeBinarySearch(int arr[], int size, int target);
 };
 
 

@@ -36,6 +36,7 @@ add_executable(unit_tests
         tests/HeapTests.cpp
         tests/PriorityQueueTests.cpp
         tests/HeapSortTests.cpp
+        tests/SearchTests.cpp
 )
 
 target_link_libraries(unit_tests PRIVATE modules gtest_main)
